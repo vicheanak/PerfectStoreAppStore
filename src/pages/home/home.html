@@ -1,17 +1,108 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>រង្វាន់</ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+    <ion-card>
+        <ion-card-header>
+            ពិន្ទុ: 120,000 pts
+        </ion-card-header>
+    </ion-card>
+    <ion-card>
+        <img src="../../assets/img/dream.jpg"/>
+        <ion-card-content>
+            <ion-card-title>
+                Honda Dream 125cc
+            </ion-card-title>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear  icon-start>
+                    <ion-icon name='ios-bowtie'></ion-icon>
+                    1,500,000 pts
+                </button>
+            </ion-col>
+
+            <ion-col text-right>
+                <button ion-button  color="light" icon-start>
+                    <ion-icon name='ios-beer'></ion-icon>
+                    ប្តូរ
+                </button>
+            </ion-col>
+        </ion-row>
+
+    </ion-card>
+    <ion-card>
+        <img src="../../assets/img/tv.jpg"/>
+        <ion-card-content>
+            <ion-card-title>
+                 ទូរទស្សន៍
+            </ion-card-title>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear  icon-start>
+                    <ion-icon name='ios-bowtie'></ion-icon>
+                    900,000 pts
+                </button>
+            </ion-col>
+
+            <ion-col text-right>
+                <button ion-button  color="light" icon-start>
+                    <ion-icon name='ios-beer'></ion-icon>
+                    ប្តូរ
+                </button>
+            </ion-col>
+        </ion-row>
+
+    </ion-card>
+    <ion-card>
+        <img src="../../assets/img/fridge.jpg"/>
+        <ion-card-content>
+            <ion-card-title>
+                ទូរទឹកកក 
+            </ion-card-title>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear  icon-start>
+                    <ion-icon name='ios-bowtie'></ion-icon>
+                    600,000 pts
+                </button>
+            </ion-col>
+
+            <ion-col text-right>
+                <button ion-button  color="light" icon-start>
+                    <ion-icon name='ios-beer'></ion-icon>
+                    ប្តូរ
+                </button>
+            </ion-col>
+        </ion-row>
+    </ion-card>
+    <ion-card>
+        <img src="../../assets/img/microwave.jpg"/>
+        <ion-card-content>
+            <ion-card-title>
+                Microwave
+            </ion-card-title>
+        </ion-card-content>
+        <ion-row no-padding>
+            <ion-col>
+                <button ion-button clear  color="danger" icon-start>
+                    <ion-icon name='ios-bowtie'></ion-icon>
+                    100,000 pts
+                </button>
+            </ion-col>
+
+            <ion-col text-right>
+                <button (click)="showConfirm()" ion-button  color="danger" icon-start>
+                    <ion-icon name='ios-beer'></ion-icon>
+                    ប្តូរ
+                </button>
+            </ion-col>
+        </ion-row>
+
+    </ion-card>
 </ion-content>
